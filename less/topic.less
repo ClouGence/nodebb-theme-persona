@@ -8,10 +8,13 @@
 		margin-bottom: 0px;
 
 		.topic-title {
+			font-family: Chinese Quote,Segoe UI,Roboto,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,Helvetica,Arial,sans-serif,Apple Color Emoji;
+			font-size: 36px;
+			line-height: 1.389;
+			font-weight: 700;
+			color: #262626;
+			display: inline;
 			word-wrap: break-word;
-			font-size: 24px;
-			color:inherit;
-			line-height: 32px;
 			@media (max-width: @screen-sm-max) {
 				font-size: 18px;
 				line-height: 24px;
@@ -61,10 +64,10 @@
 	.category-item {
 		.icon {
 			min-width: 23px;
-    		min-height: 23px;
-    		font-size: 10px;
-    		line-height: 12px;
-    		padding: 5px;
+			min-height: 23px;
+			font-size: 10px;
+			line-height: 12px;
+			padding: 5px;
 			margin-right: 5px;
 			border-radius: 50%;
 		}
@@ -76,31 +79,47 @@
 		}
 
 		h1 {
-			font-size: 22px;
-			margin: 10px 0;
+			font-size: 28px;
+			line-height: 36px;
+			margin: 26px 0 10px 0;
 		}
 
 		h2 {
-			font-size: 50px;
+			font-size: 24px;
+			line-height: 32px;
+			margin: 21px 0 5px 0;
 		}
 
 		h3 {
-			text-transform: uppercase;
-			font-size: 16px;
-			font-weight: 900;
+			font-size: 20px;
+			line-height: 28px;
+			margin: 16px 0 5px 0;
 		}
 
 		h4 {
-			font-size: 17px;
+			font-size: 16px;
+			line-height: 24px;
+			margin: 10px 0 5px 0;
 		}
 
 		h5 {
-			font-weight: 800;
-			text-transform: uppercase;
+			font-size: 15px;
+			line-height: 24px;
+			margin: 8px 0 5px 0;
 		}
 
-		h4, h5, h6 {
-			margin-top: 15px
+		h6 {
+			margin: 8px 0 5px 0;
+		}
+
+		p {
+			line-height: 1.74;
+		}
+
+		ul,ol {
+			p {
+				margin-bottom: 0;
+			}
 		}
 
 		.icon {
@@ -167,7 +186,7 @@
 		}
 
 		&:focus {
-				text-decoration: none;
+			text-decoration: none;
 		}
 	}
 
@@ -470,7 +489,7 @@
 
 				> blockquote.uncollapsed {
 					> *:not(.blockquote) {
-							display: block;
+						display: block;
 					}
 				}
 			}
@@ -519,8 +538,8 @@
 		.pagination-text {
 			color: @text-color;
 			position: relative;
-    		top: -3px;
-    		font-weight: bolder;
+			top: -3px;
+			font-weight: bolder;
 		}
 
 		&.ready {
@@ -555,7 +574,7 @@
 						position: relative;
 						right: -6px;
 						padding-right: 15px;
-    					margin-right: -15px;
+						margin-right: -15px;
 
 
 						.scroller-thumb-icon {
@@ -670,16 +689,16 @@
 
 		>.post-header .icon:before {
 			border: 1px solid #5cb85c;
-    		color: #5cb85c;
-    		-webkit-transition: .2s ease-in-out all;
-    		transition: .2s ease-in-out all;
-    		content: "\f00c";
-    		padding: 14px;
-		    border-radius: 50%;
-		    opacity: 1;
-		    position: absolute;
-		    display: inline-block;
-		    font: normal normal normal 14px/1 FontAwesome;
+			color: #5cb85c;
+			-webkit-transition: .2s ease-in-out all;
+			transition: .2s ease-in-out all;
+			content: "\f00c";
+			padding: 14px;
+			border-radius: 50%;
+			opacity: 1;
+			position: absolute;
+			display: inline-block;
+			font: normal normal normal 14px/1 FontAwesome;
 		}
 
 		>.post-header [component="user/picture"], >.post-header [component="user/status"] {
